@@ -11,7 +11,7 @@ class King(Baratheon, Lannister):
         self.hairs = hairs
 
     def set_eyes(self, eyes):
-        self.eyes= eyes
+        self.eyes = eyes
 
     def set_hairs(self, hairs):
         self.hairs = hairs
@@ -21,7 +21,6 @@ class King(Baratheon, Lannister):
 
     def get_hairs(self):
         return (self.hairs)
-
 
 
 def main():
